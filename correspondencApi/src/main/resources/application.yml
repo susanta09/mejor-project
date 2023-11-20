@@ -1,0 +1,25 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: password
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/project3
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show-sql: true
+  
+  
+ 
+        
+
+accessKey: AKIAYQZV3W3UXRW7YYER
+secretKey: wB+eaZ+E2D2x1jzFRXsGcNFlxQCFUvydm8qHlIFQ
+bucketName: your-bucket-name
+region: ap-south-1
+
+
+    
